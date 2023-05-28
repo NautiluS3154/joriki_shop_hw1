@@ -4,10 +4,9 @@ import './Button.css';
 const Button = (props) =>{
     const {titleBtn} = props
     return(
-    <button className="full-rounded">
-        <span>{titleBtn}</span>
-        <div class="border full-rounded"></div>
-    </button>
+<button>
+  Button
+</button>
     )
 }
 export default Button;
